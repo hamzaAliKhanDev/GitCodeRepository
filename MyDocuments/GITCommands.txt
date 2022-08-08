@@ -44,6 +44,8 @@
 11. git help --all   	 //See all possible commands
 	Note: If you find yourself stuck in the list view, SHIFT + G to jump the end of the list, then q to exit the view.
 	
+12. git rm -r filename.txt		//to remove file from dir
+
 
 ------------------------------------------------------GIT BRANCH------------------------------------------------------------------------------------------------
 
