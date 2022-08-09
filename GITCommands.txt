@@ -92,3 +92,35 @@ We see that index.html has been changed in both branches. Now we are ready to me
 21. git status
 22. git commit -m "merged with new-world-branch after fixing conflicts"	
 23. git branch -d new-world-branch	//delete the branch
+24. git branch -M 'newbranchname'	//rename the branch 
+
+------------------------------------------------------GITHUB------------------------------------------------------------------------------------------------
+
+1. Create account on github and create reporsitory using defaults.(use same email as used in git config)
+2. git remote add origin 'url'		//to add remote repository, with the specified URL, as an origin to your local Git repo(http url)
+3. git push --set-upstream origin master	//to push our master branch to the origin url, and set it as the default remote branch
+	IF Error Occurs:-
+		>$ cd
+		>$ mkdir .ssh;cd .ssh
+		>$ ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
+		-->add the public key as 'id_rsa' in github under ssh certificates.
+		-->Open bash in repo in explorer(master dir)
+		git push --set-upstream https://gitlab.com/Account_User_Name/Your_Project_Name.git master
+
+	-->git remote -version		//to view all remote
+	-->git remote remove origin //to remove remote
+4. Pull command- pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on.
+	git pull origin	OR git pull		//to pull all the changes into local repo
+	git diff origin/master	//to check the files modified by github and not by git
+
+5. Push command-	git push OR git push origin			//to push all the changes to github
+6. git branch -a 		//to show all the remote and local branches
+7. git branch -r		//to show all the remote branches
+8. Pull branch from github to local repo:-
+	git pull	--> 	git status		--> git branch -a	--> git checkout 'branchname' 	--> git pull	--> git branch	-->git checkout master
+9. Push branch to github:-
+	git checkout -b newpushbranch	--> made some changes to index.html	--> git status	--> git commit -a -m "error resolved in index.html"		
+	--> git push origin newpushbranch
+	In github--> Click on 'Compare and pull request' -->Click on 'create pull request'--> now you can merge it with the master and delete it or leave them as it is.
+	
+10. 	
