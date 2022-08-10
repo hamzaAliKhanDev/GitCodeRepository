@@ -93,6 +93,9 @@ We see that index.html has been changed in both branches. Now we are ready to me
 22. git commit -m "merged with new-world-branch after fixing conflicts"	
 23. git branch -d new-world-branch	//delete the branch
 24. git branch -M 'newbranchname'	//rename the branch 
+25. git repack && git gc			//Remove large files from commit history
+26. git reset --hard HEAD~1			//Remove last commit from git
+
 
 ------------------------------------------------------GITHUB------------------------------------------------------------------------------------------------
 
