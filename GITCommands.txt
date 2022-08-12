@@ -95,7 +95,7 @@ We see that index.html has been changed in both branches. Now we are ready to me
 24. git branch -M 'newbranchname'	//rename the branch 
 25. git repack && git gc			//Remove large files from commit history
 26. git reset --hard HEAD~1			//Remove last commit from git
-
+27. git rm -r filename				//Remove file from git
 
 ------------------------------------------------------GITHUB------------------------------------------------------------------------------------------------
 
@@ -126,4 +126,59 @@ We see that index.html has been changed in both branches. Now we are ready to me
 	--> git push origin newpushbranch
 	In github--> Click on 'Compare and pull request' -->Click on 'create pull request'--> now you can merge it with the master and delete it or leave them as it is.
 	
-10. 	
+10. FORK a repository(cannot fork own repo)-A fork is a copy of a repository. This is useful when you want to contribute to someone else's project or start 	your own project based on theirs. Goto repo of user whose fork has to be made--> click on fork on upper right corner and the fork repo will be created in you github account.
+
+11. CLONE-A clone is a full copy of a repository, including all logging and versions of files on our local git.Now clone your repo(not the fork one),which one you need by--> git clone https://github.com/hamzaAliKhanDev/GitCodeRepository.git 
+Note: IF need to add to a particular foldler-->git clone https://github.com/hamzaAliKhanDev/GitCodeRepository.git myfolder 
+-->cd GitCodeRepository		//if folder name is not specified
+-->git status
+-->git log
+Now we have full copy of our original repo ie.GitCodeRepository. Now setup the remotes of this clone repo:-
+-->git remote -v
+-->git remote rename origin upstream			//rename the original origin remote to upstream
+Then fetch the URL of our own fork And add that as origin:-
+-->git remote add origin https://github.com/hamzaAliKhanDev/w3schools-test.github.io.git
+-->git remote -v
+Note: According to Git naming conventions, it is recommended to name your own repository origin, and the one you forked for upstream
+Now we have 2 remotes:
+Origin - our own fork, where we have read and write access
+Upstream - the original, where we have read-only access
+Now make changes to code-->We have made a lot of changes to our local Git.Now we push them to our GitHub fork:-
+
+12. git push origin			//Go to GitHub, and we see that the fork repository has a new commit. And we can send a Pull Request to the original repository.
+-->Goto fork and click on pull request -->create a pull request-->Remember to add an explanation for the administrators-->click on create pull request.
+-->Approving pull request-->Now any member with access can see the Pull Request when they see the original repository And they can see the proposed changes-->Comment on the changes and merge-->confirm-->And changes have been merged with master
+
+13. .gitignore-Git will not track files and folders specified in .gitignore file. However, the .gitignore file itself IS tracked by Git.
+	-->touch .gitignore				//in root of local git
+	in .gitignore file--># ignore ALL .log files
+						 *.log
+
+						# ignore ALL files in ANY directory named temp
+						temp/
+	Note: In this case, we use a single .gitignore which applies to the entire repository.It is also possible to have additional .gitignore files in subdirectories. These only apply to files or folders within that directory.
+	For rules of .gitignore refer-->https://www.w3schools.com/git/git_ignore.asp?remote=github
+	It is also possible to ignore files or folders but not show it in the distributed .gitignore file.These kinds of ignores are specified in the .git/info/exclude file. It works the same way as .gitignore but are not shown to anyone else.
+	
+14. Generating SSH keyPair:-
+	-->ssh-keygen -t rsa -b 4096 -C "khamza968@gmail.com"		//you will be required to enter the details
+	-->ssh-add /Users/user/.ssh/id_rsa							//'/Users/user/.ssh/id_rsa'- it is the path at given at above step where public is saved
+	-->clip < /Users/user/.ssh/id_rsa.pub						//Copy the public key to paste in github
+	-->Goto settings-->SSH and GPG Keys-->Select a title, and paste the public SSH key into the "Key" field, and click "Add SSH Key
+	-->ssh -T khamza968@gmail.com									//test ssh connection 
+	-->git remote add ssh-origin git@github.com:w3schools-test/hello-world.git			//incase of new repo
+	-->git remote set-url origin git@github.com:w3schools-test/hello-world.git			//to rename the https to ssh remote
+	
+15. REVERT-revert is the command we use when we want to take a previous commit and add it as a new commit, keeping the log intact.
+-->git log --oneline			//gives just one line per commit showing
+-->git revert HEAD --no-edit	//git revert HEAD (revert the latest change,  and then commit), adding the option --no-edit to skip the commit message editor (getting the default revert message)
+--> git revert <commit-hash>			//first 7 char of commit
+NOTE:To revert to earlier commits, use git revert HEAD~x (x being a number. 1 going back one more, 2 going back two more, etc.)
+
+16.RESET-reset is the command we use when we want to move the repository back to a previous commit, discarding any changes made after that commit.
+-->git log --oneline
+-->git reset <commit-hash>
+-->git reset --hard HEAD~1			//Remove last commit permanently from git
+
+17. AMEND-is used to modify the most recent commit.
+-->git commit --amend -m "Modified Comment"
