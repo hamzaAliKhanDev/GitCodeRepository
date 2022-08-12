@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+function add()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+let y=document.forms["myForm"]["f2"].value;
+if(y=="")
+{ alert("Second no. cannot be blank");
+return false;
+}
+var c=parseInt(x)+parseInt(y);
+alert(c);
+}
+</script>
+</head>
+<body>
+
+<h2>Javascript Validation</h2>
+
+<form name="myForm" method="post">
+First no:<input type="text" name="f1">
+
+Second no:<input type="text" name="f2">
+<input type="button" value="Add" onClick="add()">
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+//Disconnet cabinet
+<?xml version="1.0"?>
+
+<NGODisconnectCabinet_Input>
+
+  <Option>NGODisconnectCabinet</Option>
+
+  <CabinetName>jscl</CabinetName>
+
+  <UserDBId>-467406033</UserDBId>
+
+</NGODisconnectCabinet_Input>
+
+//output
+<?xml version="1.0"?>
+<NGODisconnectCabinet_Output>
+<Option>NGODisconnectCabinet</Option>
+<Status>0</Status><UserDBId>-467406033</UserDBId><LoginUserIndex>2</LoginUserIndex></NGODisconnectCabinet_Output>
+
+ 
+

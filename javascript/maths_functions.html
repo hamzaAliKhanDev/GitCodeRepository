@@ -1,0 +1,67 @@
+<html>
+<head>
+<script>
+function sqrt()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=Math.sqrt(parseInt(x));
+alert(c);
+}
+function floor()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=Math.floor(parseInt(x));
+alert(c);
+}
+
+function round()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=Math.round(parseInt(x));
+alert(c);
+}
+
+function ceil()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=Math.ceil(parseInt(x));
+alert(c);
+}
+
+</script>
+</head>
+<body>
+
+<h2>Javascript Validation</h2>
+
+<form name="myForm" method="post">
+First no:<input type="text" name="f1">
+
+<input type="button" value="sqrt" onClick="sqrt()">
+<input type="button" value="Round" onClick="round()">
+<input type="button" value="Ceil" onClick="ceil()">
+<input type="button" value="Floor" onClick="floor()">
+
+</form>
+</body>
+</html>

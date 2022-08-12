@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+.button {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+<script>
+function add()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+let y=document.forms["myForm"]["f2"].value;
+if(y=="")
+{ alert("Second no. cannot be blank");
+return false;
+}
+var c=parseInt(x)+parseInt(y);
+document.forms["myForm"]["f3"].value=c;
+}
+function sub()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+let y=document.forms["myForm"]["f2"].value;
+if(y=="")
+{ alert("Second no. cannot be blank");
+return false;
+}
+var c=parseInt(x)-parseInt(y);
+document.forms["myForm"]["f3"].value=c;
+}
+function mul()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+let y=document.forms["myForm"]["f2"].value;
+if(y=="")
+{ alert("Second no. cannot be blank");
+return false;
+}
+var c=parseInt(x)*parseInt(y);
+document.forms["myForm"]["f3"].value=c;
+}
+function div()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+let y=document.forms["myForm"]["f2"].value;
+if(y=="")
+{ alert("Second no. cannot be blank");
+return false;
+}
+var c=parseInt(x)/parseInt(y);
+document.forms["myForm"]["f3"].value=c;
+}
+function sq()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=parseInt(x)*parseInt(x);
+document.forms["myForm"]["f3"].value=c;
+}
+
+function sqrt()
+{
+let x=document.forms["myForm"]["f1"].value;  //can also use 'var' instead of 'let'
+
+if(x=="")
+{ alert("First no. cannot be blank");
+return false;
+}
+var c=Math.sqrt(parseInt(x));
+document.forms["myForm"]["f3"].value=c;
+}
+
+</script>
+</head>
+<body>
+
+<h2><center><u>Web Calculator</h2></center></u>
+
+<form name="myForm" method="post">
+First no:<input type="text" name="f1">
+Second no:<input type="text" name="f2">
+Result:<input type="text" name="f3">
+<input type="button" class="button" value="Add" onClick="add()">
+<input type="button" class="button" value="Sub" onClick="sub()">
+<input type="button" class="button" value="Mul" onClick="mul()">
+<input type="button" class="button" value="Div" onClick="div()"><br>
+<input type="button" class="button" value="square" onClick="sq()">
+<input type="button" class="button" value="Sqrt" onClick="sqrt()">
+<input type="reset" class="button"  value="Reset"></right>
+
+</form>
+</body>
+</html>

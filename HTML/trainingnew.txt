@@ -1,0 +1,8 @@
+<html>
+<head><title>training</title></head>
+<body>
+some important formula:-<br>
+(A+B)<sup>2</sup>=A<sup>2</sup>+2AB+B<sup>2</sup><br>
+<VIDEO width="320" height="240" CONTROLS="controls">
+<SOURCE SRC="file:///C:/Users/hamza.khan/downloads/AbstractRotatingCubesVidevo.mp4" TYPE="video/mp4" />
+</body>

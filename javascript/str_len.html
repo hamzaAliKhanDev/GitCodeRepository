@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function validate_address(){
+var strlen,addressvalue;
+addressvalue=addressname.value;//To read data from  the text box
+if(addressvalue.length==0)
+alert("Address field cannot be left blank");
+else
+{
+stlen=addressvalue.length;
+document.write(addressvalue);
+document.write("<br>length=" +stlen);
+}
+}
+</script>
+</head>
+<body>
+Enter address:<input type="text" id="addressname" onblur="validate_address()">		
+</body>
+</html>

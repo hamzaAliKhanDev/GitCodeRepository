@@ -1,0 +1,8 @@
+<html>
+<body bgcolor="pink">
+
+<h1>center>BOOK YOUR HOTEL</center></h1>
+<p>
+<h3><center><Marquee bgcolor="yellow">HURRY!!BOOK YOUR HOTEL NOW.</marquee></center></h3>
+</body>
+</html>

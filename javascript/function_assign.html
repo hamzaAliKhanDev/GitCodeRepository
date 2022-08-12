@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+var x=parseInt(prompt("Enter the 1st no.:"));
+var y=parseInt(prompt("Enter the 2nd no.:"));
+
+var z=parseInt(prompt("Enter the 3rd no.:"));
+document.write("The 1st no. is"+x+"<br>");
+document.write("The 2nd no. is"+y+"<br>");
+document.write("The 3rd no. is"+z+"<br>");
+
+if(x>y && x>z)
+	document.write(x+"is greatest.");
+	
+else if(y>x && y>z)
+	document.write(y+ "is greatest.");
+else if(z>y && z>x)
+	document.write(z+ "is greatest.");  
+else{
+	document.write("All are same");
+}
+
+</script>
+</body></html>

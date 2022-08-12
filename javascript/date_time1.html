@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">  
+function check()
+{
+var todayDate=new Date(); // Current Date Will Be Displayed
+var days=todayDate.getDate();  // To Retrieve date
+var mns=todayDate.getMonth()+1;  //To Retreive Months
+var scs=todayDate.getFullYear();  // To Display the Year along with Century
+document.write(days+"/"+mns+"/"+scs);
+}
+</script>
+</head>
+<body>
+<div id="displayTime" onClick="check()">Click Here</div>
+</body>
+</html>

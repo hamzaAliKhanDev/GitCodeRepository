@@ -1,0 +1,22 @@
+<html>
+<body>
+<script type="text/javascript">
+var k=0, ch='y';
+var myarray=new Array();
+do
+{
+k=parseInt(prompt("Enter the Value"));
+myarray.push(k);  //[50]
+ch=prompt('Want To Continue ?');
+if( ch=='y')
+   continue;  // Loop will be continued
+else
+   break; //To Come out of a Loop
+} while(ch=='y');
+myarray.sort();
+document.write("Minimum =" +myarray[0]);
+k=myarray.length;
+document.write("<Br>Maximum = "+myarray[k-1]);
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head><title>Online Ticket Booking</title>
+<center><h2>Online Movie ticket booking system</h2></center>
+<hr color=blue width=100%>
+</head>
+<form name="My form" method="Post" action="https://www.newgensoft.com">
+<table bgcolor=green>
+<tr>
+<td>
+Enter your name &nbsp;&nbsp;&nbsp;</td><td><input type=text name="Text1"><br></td></tr>
+<tr><td>
+Enter your address &nbsp;&nbsp;&nbsp;</td>
+<td>
+<textarea rows=5 cols=30></textarea><br></tr>
+<tr><td>
+price &nbsp;&nbsp;&nbsp;</td>
+<td>
+<select>
+<option value=300>Rs.300(balcony)</option>
+<option value=400>Rs.400(seat)</option>
+<option value=500>Rs.500(box)</option>
+</select><br></td></tr>
+<tr><td>
+No. of tickets &nbsp;&nbsp;&nbsp;</td>
+<td>
+<input type=radio name="g1">One ticket
+<input type=radio name="g1">two ticket
+<input type=radio name="g1">three ticket
+<br></td></tr>
+<tr><td>
+<input type="submit" value=send>&nbsp;&nbsp;&nbsp;<input type="reset" value=reset></td></tr>
+</table>
+</form>
+</html>

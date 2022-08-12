@@ -1,0 +1,78 @@
+//Search folder test2
+<?xml version="1.0"?>
+
+<NGOSearchFolder_Input>
+
+  <Option>NGOSearchFolder</Option>
+
+  <CabinetName>hamzacab</CabinetName>
+
+  <UserDBId>-998227678</UserDBId>
+
+  <LookInFolder>49</LookInFolder>
+
+  <IncludeSubFolder>Y</IncludeSubFolder>
+
+  <Name>test2</Name>
+
+  <Owner>Super*</Owner>
+
+  <DataDefinitions>
+
+  </DataDefinitions>
+
+<DataDefCriterion>
+
+  <DataDefIndex>2</DataDefIndex>
+
+  <DataDefCriteria>
+
+    <DataDefIndex>2</DataDefIndex>
+
+    <IndexId>7</IndexId>
+
+    <Operator>></Operator>
+
+    <IndexValue></IndexValue>
+
+    <JoinCondition></JoinCondition>
+
+  </DataDefCriteria>
+
+</DataDefCriterion>
+
+  <OrderBy></OrderBy>
+
+  <SortOrder></SortOrder>
+
+  <SearchScope>0</SearchScope>
+
+  <PrevFolderList></PrevFolderList><PreviousList></PreviousList>
+
+  <ReferenceFlag>B</ReferenceFlag>
+
+  <StartFrom>1</StartFrom>
+
+  <NoOfRecordsToFetch>10</NoOfRecordsToFetch>
+
+  <MaximumHitCountFlag>Y</MaximumHitCountFlag>           
+
+  <FolderType>G</FolderType>
+
+</NGOSearchFolder_Input>
+
+//output xml
+<?xml version="1.0"?>
+<NGOSearchFolder_Output>
+<Option>NGOSearchFolder</Option>
+<Status>0</Status><UserDBId>-998227678</UserDBId><LoginUserIndex>1</LoginUserIndex><Folders>
+<Folder>
+<FolderIndex>1121</FolderIndex><ParentFolderIndex>49</ParentFolderIndex><FolderName>test2</FolderName><OwnerIndex>2</OwnerIndex><CreationDateTime>2021-12-07 10:26:38.58</CreationDateTime><RevisedDateTime>2021-12-07 10:28:36.82</RevisedDateTime><AccessDateTime>2021-12-07 11:05:00.0</AccessDateTime><DataDefinition>
+<DataDefIndex>2</DataDefIndex><DataDefName>Document QC</DataDefName></DataDefinition>
+<AccessType>S</AccessType><ImageVolumeIndex>0</ImageVolumeIndex><FolderType>G</FolderType><FolderLock>N</FolderLock><Location>G</Location><DeletedDateTime>2121-12-07 10:26:38.58</DeletedDateTime><VersionFlag>N</VersionFlag><ExpiryDateTime>2121-12-07 10:26:38.58</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-07 10:26:38.58</FinalizedDateTime><ACLMoreFlag>N</ACLMoreFlag><LoginUserRights>111111111111</LoginUserRights><ReferenceFlag>O</ReferenceFlag><Owner>Supervisor2</Owner><ISSecureFlag>N</ISSecureFlag><OwnerType>U</OwnerType><ObjectType></ObjectType><OwnerInfo>
+<Index>2</Index><Name>Supervisor2</Name><Type>U</Type><PersonalName>Supervisor2</PersonalName></OwnerInfo>
+</Folder>
+<noOfRecordsFetched>1</noOfRecordsFetched><TotalNoOfRecords>1</TotalNoOfRecords><MaximumHitCount>1</MaximumHitCount></Folders>
+</NGOSearchFolder_Output>
+
+

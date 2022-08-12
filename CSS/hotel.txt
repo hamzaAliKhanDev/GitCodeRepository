@@ -1,0 +1,8 @@
+<html>
+<head><title>BOOKING SCREEN</title></head>
+<h1><center>BOOK YOUR HOTEL></center></h1>
+
+<body bgcolor="cyan" basefront="times new roman">
+We are the most<mark>trusted name in the world of hotels.</mark>
+<p>We have been operating out of san jose for the last 30 years.
+</html> 

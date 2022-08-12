@@ -1,0 +1,17 @@
+//input get id code
+<?xml version="1.0"?>
+<NGOGetIDFromName_Input>
+<Option>NGOGetIDFromName</Option>
+<UserDBId>-467406033</UserDBId>
+<CabinetName>jscl</CabinetName>
+<ObjectType>F</ObjectType>
+<ObjectName>Test</ObjectName>
+<Index>0</Index>
+<MainGroupIndex>0</MainGroupIndex>
+</NGOGetIDFromName_Input>
+
+//output get id code(Test folder)
+<?xml version="1.0"?>
+<NGOGetIDFromName_Output>
+<Option>NGOGetIDFromName</Option>
+<Status>0</Status><UserDBId>-467406033</UserDBId><LoginUserIndex>2</LoginUserIndex><ObjectIndex>134</ObjectIndex></NGOGetIDFromName_Output>

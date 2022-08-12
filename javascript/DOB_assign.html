@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+       
+        input{
+            width:22%;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="POST">
+        <input type="text" id="birthday"  placeholder="Enter your birthday in the format of MM/DD/YYYY"   />
+        <button  type="button" onclick="showday()" > Get day of Your birthday </button>
+    </form>
+
+<script>
+        function showday(){
+            var birth=document.getElementById('birthday').value;
+            if(birth==""){
+                alert("put something in text box")
+            }
+            else{
+               var dayp= new Date(birth);
+               var day=dayp.getDay(dayp);
+                 
+               switch(day){
+                   case 0:
+                       document.write("day was sunday");
+			break;
+                   case 1:
+                       document.write('day was monday');
+                       break;
+                   case 2:
+                        document.write("day was tuesday");
+                        break;
+                   case 3:
+                        document.write("day was wednesday");
+                        break;
+                   case 4:
+                        document.write("day was thursday");
+                        break;
+                   case 5:
+                        document.write("day was friday");
+                        break;
+                   case 6:
+                        document.write("day was saturday");
+                        break;    
+                        
+                   default:    
+                    	document.write("some thing is wrong");
+
+               }
+
+            }
+        }
+</script>
+</body>
+</html>

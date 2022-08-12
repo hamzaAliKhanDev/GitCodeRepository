@@ -1,0 +1,22 @@
+//Get DataDefProperty
+
+<?xml version="1.0"?>
+
+<NGOGetDataDefProperty_Input><Option>NGOGetDataDefProperty</Option><CabinetName>hamzacab</CabinetName><UserDBId>573554861</UserDBId>
+<DataDefIndex>7</DataDefIndex></NGOGetDataDefProperty_Input>
+
+
+//Output XML
+<?xml version="1.0"?>
+<NGOGetDataDefProperty_Output>
+<Option>NGOGetDataDefProperty</Option>
+<Status>0</Status><DataDefinition>
+<Fields>
+<Field>
+<IndexName>Document ID</IndexName><IndexId>7</IndexId><IndexType>S</IndexType><IndexLength>255</IndexLength><IndexFlag>D</IndexFlag><UsefulInfoFlag>N</UsefulInfoFlag><UsefulInfoSize>255</UsefulInfoSize><IndexAttribute>0</IndexAttribute><UserUpdatable>Y</UserUpdatable><Pickable>N</Pickable><RightsCheckFlag>N</RightsCheckFlag><FieldSecureFlag>N</FieldSecureFlag></Field>
+<Field>
+<IndexName>Department</IndexName><IndexId>8</IndexId><IndexType>S</IndexType><IndexLength>255</IndexLength><IndexFlag>D</IndexFlag><UsefulInfoFlag>N</UsefulInfoFlag><UsefulInfoSize>255</UsefulInfoSize><IndexAttribute>0</IndexAttribute><UserUpdatable>Y</UserUpdatable><Pickable>N</Pickable><RightsCheckFlag>N</RightsCheckFlag><FieldSecureFlag>N</FieldSecureFlag></Field>
+</Fields>
+<DataDefName>Document QC</DataDefName><LoginUserRights>111111111111</LoginUserRights><DataDefIndex>2</DataDefIndex><Comment>Document QC</Comment><EnableLogFlag>N</EnableLogFlag><Type>G</Type><GroupId>0</GroupId></DataDefinition>
+</NGOGetDataDefProperty_Output>
+

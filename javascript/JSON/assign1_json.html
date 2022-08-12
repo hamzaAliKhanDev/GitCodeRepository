@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html>
+<body>
+<h2>Create Object from JSON String</h2>
+<p id="demo"></p>
+<script>
+let data = '{"employees":[' + '{"firstName":"Subhash","lastName":"Sharma" },' + '{"firstName":"Saida","lastName":"Mousafir" },' + '{"firstName":"Renu","lastName":"Saini" }]}';
+const obj = JSON.parse(data);
+var count = Object.keys(data).length;
+for(var i=0;i<count;i++)
+{
+
+document.write("Dr"+" " +obj.employees[i].firstName.toUpperCase()+" "+obj.employees[i].lastName.toUpperCase()+"<br>");
+}
+</script>
+</body>
+</html>

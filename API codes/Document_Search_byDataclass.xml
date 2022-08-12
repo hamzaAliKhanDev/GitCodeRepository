@@ -1,0 +1,30 @@
+//Document Search by dataclass
+
+<?xml version="1.0"?><NGOSearchDocumentExt_Input><Option>NGOSearchDocumentExt</Option><CabinetName>hamzacab</CabinetName><UserDBId>-786155710</UserDBId>
+<SearchText></SearchText><SearchOnPreviousVersions>N</SearchOnPreviousVersions><LookInFolder>1119</LookInFolder><IncludeSubFolder>Y</IncludeSubFolder>
+<DataDefinitions><DataDefCriterion><DataDefIndex>2</DataDefIndex><DataDefCriteria><DataDefIndex>2</DataDefIndex><IndexId>7</IndexId><Operator>=</Operator>
+<IndexValue>12345</IndexValue><JoinCondition></JoinCondition></DataDefCriteria></DataDefCriterion></DataDefinitions><SearchScope>0</SearchScope>
+<ReferenceFlag>B</ReferenceFlag><SortOrder>A</SortOrder><GroupIndex>0</GroupIndex><StartFrom>1</StartFrom><NoOfRecordsToFetch>20</NoOfRecordsToFetch>
+<OrderBy>2</OrderBy><MaximumHitCountFlag>Y</MaximumHitCountFlag><DataAlsoFlag>Y</DataAlsoFlag></NGOSearchDocumentExt_Input>
+
+
+//Output Xml
+<?xml version="1.0"?>
+<NGOSearchDocumentExt_Output>
+<Option>NGOSearchDocumentExt</Option>
+<Status>0</Status><UserDBId>1484577235</UserDBId><LoginUserIndex>1</LoginUserIndex><SearchResults>
+<SearchResult>
+<Document>
+<ParentFolderIndex>1119</ParentFolderIndex><ReferenceFlag>O</ReferenceFlag><LoginUserRights>111111111111</LoginUserRights><DocumentIndex>1021</DocumentIndex><DocumentVersionNo>1.1</DocumentVersionNo><DocumentName>Sample(2021_12_3_16_43_36_26)</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 16:53:47.697</CreationDateTime><RevisedDateTime>2021-12-03 16:53:00.0</RevisedDateTime><AccessDateTime>2021-12-03 16:53:00.0</AccessDateTime><DataDefinition>
+<DataDefIndex>2</DataDefIndex><DataDefName>Document QC</DataDefName><Fields>
+<Field>
+<IndexId>7</IndexId><IndexName>Document ID</IndexName><IndexType>S</IndexType><IndexLength>255</IndexLength><IndexFlag>D</IndexFlag><UsefulInfoFlag>N</UsefulInfoFlag><UsefulInfosize>255</UsefulInfosize><IndexAttribute>0</IndexAttribute><IndexValue>12345</IndexValue><Pickable>N</Pickable></Field>
+<Field>
+<IndexId>8</IndexId><IndexName>Department</IndexName><IndexType>S</IndexType><IndexLength>255</IndexLength><IndexFlag>D</IndexFlag><UsefulInfoFlag>N</UsefulInfoFlag><UsefulInfosize>255</UsefulInfosize><IndexAttribute>0</IndexAttribute><IndexValue>Administration</IndexValue><Pickable>N</Pickable></Field>
+</Fields>
+</DataDefinition>
+<VersionFlag>N</VersionFlag><DocumentType>N</DocumentType><ISIndex>32#1</ISIndex><NoOfPages>0</NoOfPages><DocumentSize>65972</DocumentSize><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><FTSFlag>XX</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 16:43:36.027</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 16:43:36.027</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><Owner>Supervisor</Owner><CreatedByAppName>pdf</CreatedByAppName><DocOrderNo>3</DocOrderNo><FiledByUser>Supervisor</FiledByUser><PullPrintFlag>N</PullPrintFlag><NoOfPages>0</NoOfPages><ThumbnailFlag>N</ThumbnailFlag><OriginalFolderLocation>G</OriginalFolderLocation><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><OwnerType>U</OwnerType><RecordFlag>N</RecordFlag><OwnerInfo>
+<Index>1</Index><Name></Name><Type>N</Type><FamilyName>Supervisor</FamilyName></OwnerInfo>
+</Document>
+</SearchResult>
+<NoOfRecordsFetched>1</NoOfRecordsFetched><TotalNoOfRecords>1</TotalNoOfRecords><MaximumHitCount>1</MaximumHitCount></SearchResults></NGOSearchDocumentExt_Output>

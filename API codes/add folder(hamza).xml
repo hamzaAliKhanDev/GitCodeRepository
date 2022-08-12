@@ -1,0 +1,51 @@
+//input of add folder(hamza)
+<?xml version="1.0"?>
+
+<NGOAddFolder_Input>
+
+<Option>NGOAddFolder</Option>
+
+<CabinetName>jscl</CabinetName>
+
+<UserDBId>-467406033</UserDBId>
+
+<Folder>
+
+<ParentFolderIndex>134</ParentFolderIndex>
+
+<FolderName>Hamza</FolderName>
+
+<CreationDateTime></CreationDateTime>
+
+<AccessType></AccessType>
+
+<ImageVolumeIndex></ImageVolumeIndex>
+
+<FolderType>G</FolderType>
+
+<Location>G</Location>
+
+<Comment></Comment>
+
+<Owner></Owner>
+
+<LogGeneration>Y</LogGeneration>
+
+<EnableFtsFlag>Y</ EnableFtsFlag>
+
+<DuplicateName>Y</DuplicateName>
+
+</Folder>
+
+</NGOAddFolder_Input>
+
+
+//output of add folder(hamza)
+<?xml version="1.0"?>
+<NGOAddFolder_Output>
+<Option>NGOAddFolder</Option>
+<Status>0</Status><UserDBId>-467406033</UserDBId><LoginUserIndex>2</LoginUserIndex><Folder>
+<LoginUserRights>111111111111</LoginUserRights><FolderIndex>2436</FolderIndex><ParentFolderIndex>134</ParentFolderIndex><FolderName>Hamza(2021_11_25_18_02_06_703474)</FolderName><OwnerIndex>2</OwnerIndex><CreationDateTime>2021-11-25 18:02:06</CreationDateTime><RevisedDateTime>2021-11-25 18:02:06</RevisedDateTime><AccessDateTime>2021-11-25 18:02:06</AccessDateTime><DataDefinition>
+<DataDefIndex>0</DataDefIndex></DataDefinition>
+<AccessType>S</AccessType><ImageVolumeIndex>1</ImageVolumeIndex><FolderType>G</FolderType><FolderLock>N</FolderLock><Location>G</Location><DeletedDateTime>2121-11-25 18:02:06.703474</DeletedDateTime><VersionFlag>N</VersionFlag><ExpiryDateTime>2121-11-25 18:02:06.703474</ExpiryDateTime><Comment></Comment><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-11-25 18:02:06.703474</FinalizedDateTime><ACLMoreFlag>N</ACLMoreFlag><Owner>Supervisor2</Owner><LockByUser>NULL</LockByUser><FinalizedBy>NULL</FinalizedBy><NoOfSubFolders>0</NoOfSubFolders><NoOfDocuments>0</NoOfDocuments><NoOfReferencedDocuments>0</NoOfReferencedDocuments><NoOfReferencedFolders>0</NoOfReferencedFolders><OwnerInheritance>N</OwnerInheritance><ISSecureFlag>N</ISSecureFlag><OwnerType>U</OwnerType></Folder>
+</NGOAddFolder_Output>

@@ -1,0 +1,130 @@
+//Search document_without dataclass
+<?xml version="1.0"?>
+
+<NGOSearchDocumentExt_Input>
+
+  <Option>NGOSearchDocumentExt</Option>
+
+  <CabinetName>hamzacab</CabinetName>
+
+  <UserDBId>1278288889</UserDBId>
+
+  <LookInFolder>1119</LookInFolder>
+
+  <IncludeSubFolder>Y</IncludeSubFolder>
+
+  <Name>Sample</Name>
+
+  <Author>supervisor</Author>
+
+  <Owner>super*</Owner>
+
+  <Rank>Y</Rank>
+
+  <SearchText></SearchText>
+
+  <SearchOnPreviousVersions>N</SearchOnPreviousVersions>  //It should be 'No'
+  
+  <EncryptionFlag>Y</EncryptionFlag>
+
+  <CreationDateRange></CreationDateRange>
+
+  <ExpiryDateRange></ExpiryDateRange>  
+
+  <AccessDateRange></AccessDateRange>  
+
+  <RevisedDateRange></RevisedDateRange>  
+
+  <DataDefinitions> 
+
+   </DataDefinitions>
+
+   <DataDefCriterion>
+
+   </DataDefCriterion>
+
+   <SearchScope>0</SearchScope>
+
+   <PreviousList>
+
+   </PreviousList>
+
+   <OrderBy>2</OrderBy>
+   
+   <SearchOnAlias>N</SearchOnAlias>
+
+   <Keywords>
+
+   </Keywords>
+
+   <GlobalIndexCriterion>
+   
+  </GlobalIndexCriterion>
+
+  <ReferenceFlag>B</ReferenceFlag> 
+
+  <SortOrder></SortOrder>
+
+  <GroupIndex></GroupIndex> 
+
+  <DocumentType></DocumentType>
+
+  <DocumentSizeCriteria></DocumentSizeCriteria>
+
+  <NoOfPagesCriteria></NoOfPagesCriteria>    
+
+  <CreatedByAppName></CreatedByAppName>
+
+  <StartFrom>1</StartFrom>
+
+  <NoOfRecordsToFetch>10</NoOfRecordsToFetch>
+
+  <MaximumHitCountFlag>Y<MaximumHitCountFlag>               
+
+  <ObjectTypes>
+
+  <ObjectType>1</ObjectType>
+
+  <ObjectType>2</ObjectType>
+
+  <ObjectType>3</ObjectType>
+
+  <ObjectTypes>
+
+  <DataAlsoFlag>Y</DataAlsoFlag> 
+
+  <ThumbNailAlsoFlag>Y</ThumbNailAlsoFlag>
+
+  <AnnotationFlag></AnnotationFlag>
+
+  <LinkDocFlag></LinkDocFlag>  
+
+<IncludeTrashFlag>Y</ IncludeTrashFlag >
+
+<IncludeSystemFolder></IncludeSystemFolder>
+
+<ThesaurusFlag></ThesaurusFlag>
+
+<ReportFlag>N</ ReportFlag>
+
+</NGOSearchDocumentExt_Input>
+
+
+//output xml
+
+<?xml version="1.0"?>
+<NGOSearchDocumentExt_Output>
+<Option>NGOSearchDocumentExt</Option>
+<Status>0</Status><UserDBId>1278288889</UserDBId><LoginUserIndex>1</LoginUserIndex><SearchResults>
+<SearchResult>
+<Document>
+<ParentFolderIndex>1119</ParentFolderIndex><ReferenceFlag>O</ReferenceFlag><LoginUserRights>111111111111</LoginUserRights><DocumentIndex>1019</DocumentIndex><DocumentVersionNo>1.0</DocumentVersionNo><DocumentName>Sample</DocumentName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 16:22:47.893</CreationDateTime><RevisedDateTime>2021-12-03 16:22:47.893</RevisedDateTime><AccessDateTime>2021-12-03 16:22:47.893</AccessDateTime><DataDefinition>
+<DataDefIndex>0</DataDefIndex></DataDefinition>
+<VersionFlag>N</VersionFlag><DocumentType>I</DocumentType><ISIndex>29#1</ISIndex><NoOfPages>0</NoOfPages><DocumentSize>65972</DocumentSize><EnableLog>Y</EnableLog><DocumentLock>N</DocumentLock><Comment></Comment><Author>Supervisor</Author><FTSFlag>XX</FTSFlag><DocStatus>A</DocStatus><ExpiryDateTime>2121-12-03 16:22:47.893</ExpiryDateTime><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 16:22:47.893</FinalizedDateTime><CheckoutStatus>N</CheckoutStatus><Owner>Supervisor</Owner><CreatedByAppName>pdf</CreatedByAppName><DocOrderNo>1</DocOrderNo><FiledByUser>Supervisor</FiledByUser><PullPrintFlag>N</PullPrintFlag><NoOfPages>0</NoOfPages><ThumbnailFlag>N</ThumbnailFlag><Thumbnail>
+<PageNo>1</PageNo></Thumbnail>
+<OriginalFolderLocation>G</OriginalFolderLocation><ISSecureFlag>N</ISSecureFlag><SignFlag>N</SignFlag><OwnerType>U</OwnerType><RecordFlag>N</RecordFlag><OwnerInfo>
+<Index>1</Index><Name></Name><Type>N</Type><FamilyName>Supervisor</FamilyName></OwnerInfo>
+</Document>
+</SearchResult>
+<NoOfRecordsFetched>1</NoOfRecordsFetched><TotalNoOfRecords>1</TotalNoOfRecords></SearchResults></NGOSearchDocumentExt_Output>
+

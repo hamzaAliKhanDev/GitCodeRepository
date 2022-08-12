@@ -1,0 +1,27 @@
+<html>
+<body>
+<script type="text/javascript">
+
+var myno , result1, result2;
+myno=parseInt(prompt("Enter A Number"));
+result1=myno % 5;
+result2=myno % 8;
+if ( result1==0 && result2==0)
+{
+document.write(myno+" is Divisible By Both 5 And 8");
+}
+if (result1 ==0 && result2!=0)
+{
+document.write(myno +" is Divisible by 5 But Not By 8");
+}
+if (result1 !=0 && result2==0)
+{
+document.write(myno +" is Divisible by 8 But Not By 5");
+}
+if (result1 !=0 && result2!=0)
+{
+document.write(myno +" is Not Divisible by 5 And 8");
+}
+</script>
+</body>
+</html>

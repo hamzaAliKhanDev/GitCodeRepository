@@ -1,0 +1,6 @@
+<html>
+
+<head><title>Training detail</title></head>
+<h1><center><u>Newen training schedule</u></center></h1>
+<body><h4>Training for new joiners will start from today for html,css,java,sql.</h4></body>
+</html>

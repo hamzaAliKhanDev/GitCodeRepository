@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<NGOGetDataDefIdForName_Input>
+
+  <Option>NGOGetDataDefIdForName</Option>
+
+  <CabinetName>hamzacab</CabinetName>
+
+  <UserDBId>573554861</UserDBId>
+
+  <DataDefName>Document QC</DataDefName>   //DataDefIndex==2
+
+</NGOGetDataDefIdForName_Input>
+
+
+
+//Output for datadefindex of Document QC
+<?xml version="1.0"?>
+<NGOGetDataDefIdForName_Output>
+<Option>NGOGetDataDefIdForName</Option>
+<Status>0</Status><DataDefIndex>2</DataDefIndex></NGOGetDataDefIdForName_Output>

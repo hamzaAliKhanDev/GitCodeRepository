@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+a:hover{
+color:brown;
+text-decoration:underline;}
+
+a:active{
+color:yellow;
+text-decoration:underline;}
+</style>
+</head>
+<body>
+<menu>
+<li><a href="booking.html" target="f3">Book your room</a></li>
+<li><a href="bookparty.html" target="f3">Book hotel for party</a></li>
+<li><a href="conference.html" target="f3">Book conference room</a></li>
+</menu>
+</body>
+</html>

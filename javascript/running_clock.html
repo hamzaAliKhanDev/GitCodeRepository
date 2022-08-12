@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">  
+function clockTime()
+{
+var todayDate=new Date(); // Current Date Will Be Displayed
+var hrs=todayDate.getHours();  // To Retrieve Hour
+var mns=todayDate.getMinutes();  //To Retreive Minutes
+var scs=todayDate.getSeconds();  
+mns=check(mns);
+scs=check(scs);  
+document.getElementById('displayTime').innerHTML=hrs+":"+mns+":"+scs;   //inner html replaces string in body with given string  
+t=setTimeout('clockTime()',1000); // 1000 Mili Seconds to get refresh
+}
+function check(t)
+{
+if (t<10)
+{
+t="0" + t; //to make it in correct format(01)
+}
+return t;
+}
+</script>
+</head>
+<body onload="clockTime()">    //onload occurs when a page is getting loaded
+<div id="displayTime"></div>
+</body>
+</html>

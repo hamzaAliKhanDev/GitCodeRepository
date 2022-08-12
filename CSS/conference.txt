@@ -1,0 +1,8 @@
+<html>
+<head><title>Book conference></title></head>
+<h1><center>Book Conference Hall</center></h1>
+<body bgcolor="orange" basefront="calibri">
+<marquee bgcolor="white"<mark>Book a conference room for your meetings and personal discussion.</mark><br></marquee>
+<img src="file:///c:/users/hamza.khan/downloads/conference.jpg" align="center" height=70% width=80%></img>
+</body>
+</html>

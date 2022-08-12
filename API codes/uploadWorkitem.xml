@@ -1,0 +1,24 @@
+[16:27] Hamza Ali Khan
+<WFUploadWorkItem_Input>
+    <Option>WFUploadWorkItem</Option>
+    <EngineName>hamzacab</EngineName>
+    <SessionId>2113287322</SessionId>
+    <ProcessDefId>1003</ProcessDefId>
+    <QueueId>2008</QueueId>
+    <InitiateFromActivityId></InitiateFromActivityId>
+    <InitiateAlso>Y</InitiateAlso>
+    <VariantId>0</VariantId>
+    <UserDefVarFlag>Y</UserDefVarFlag>
+    <Documents></Documents>
+    <Attributes>
+        <complex1>
+        </complex1>
+        <NestedComplex>
+         </NestedComplex>
+    </Attributes>
+</WFUploadWorkItem_Input>
+
+
+
+
+--start=2008;verification-2011;manager-2010;processdefid-3

@@ -1,0 +1,63 @@
+//Folder search without dataclass(hamza1)
+<?xml version="1.0"?>
+
+<NGOSearchFolder_Input>
+
+  <Option>NGOSearchFolder</Option>
+
+  <CabinetName>hamzacab</CabinetName>
+
+  <UserDBId>-998227678</UserDBId>
+
+  <LookInFolder>0</LookInFolder>
+
+  <IncludeSubFolder>Y</IncludeSubFolder>
+
+  <Name>Hamza1</Name>
+
+  <Owner>Super*</Owner>
+
+  <DataDefinitions>
+
+  </DataDefinitions>
+
+<DataDefCriterion>
+
+</DataDefCriterion>
+
+  <OrderBy></OrderBy>
+
+  <SortOrder></SortOrder>
+
+  <SearchScope>0</SearchScope>
+
+  <PrevFolderList></PrevFolderList><PreviousList></PreviousList>
+
+  <ReferenceFlag>B</ReferenceFlag>
+
+  <StartFrom>1</StartFrom>
+
+  <NoOfRecordsToFetch>10</NoOfRecordsToFetch>
+
+  <MaximumHitCountFlag>Y</MaximumHitCountFlag>           
+
+  <FolderType>G</FolderType>     				//Folder type should be 'G'
+
+</NGOSearchFolder_Input>
+
+//Output xml
+
+<?xml version="1.0"?>
+<NGOSearchFolder_Output>
+<Option>NGOSearchFolder</Option>
+<Status>0</Status><UserDBId>-998227678</UserDBId><LoginUserIndex>1</LoginUserIndex><Folders>
+<Folder>
+<FolderIndex>1119</FolderIndex><ParentFolderIndex>0</ParentFolderIndex><FolderName>Hamza1</FolderName><OwnerIndex>1</OwnerIndex><CreationDateTime>2021-12-03 16:13:24.577</CreationDateTime><RevisedDateTime>2021-12-03 16:43:36.027</RevisedDateTime><AccessDateTime>2021-12-07 10:57:00.0</AccessDateTime><DataDefinition>
+<DataDefIndex>0</DataDefIndex></DataDefinition>
+<AccessType>I</AccessType><ImageVolumeIndex>16</ImageVolumeIndex><FolderType>G</FolderType><FolderLock>N</FolderLock><Location>G</Location><DeletedDateTime>2121-12-03 16:13:24.73</DeletedDateTime><VersionFlag>N</VersionFlag><ExpiryDateTime>2121-12-03 16:13:24.73</ExpiryDateTime><Comment>ok</Comment><FinalizedFlag>N</FinalizedFlag><FinalizedDateTime>2121-12-03 16:13:24.73</FinalizedDateTime><ACLMoreFlag>N</ACLMoreFlag><LoginUserRights>111111111111</LoginUserRights><ReferenceFlag>O</ReferenceFlag><Owner>Supervisor</Owner><ISSecureFlag>N</ISSecureFlag><OwnerType>U</OwnerType><ObjectType></ObjectType><OwnerInfo>
+<Index>1</Index><Name>Supervisor</Name><Type>U</Type><PersonalName>Supervisor</PersonalName></OwnerInfo>
+</Folder>
+<noOfRecordsFetched>1</noOfRecordsFetched><TotalNoOfRecords>1</TotalNoOfRecords><MaximumHitCount>1</MaximumHitCount></Folders>
+</NGOSearchFolder_Output>
+
+
