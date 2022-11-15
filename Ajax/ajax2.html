@@ -1,0 +1,29 @@
+ <html>
+ <head>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+	
+	<script>
+		function ajaxCall(){
+			$.ajax({
+					url:'https://jsonplaceholder.typicode.com/todos/1',
+					type:'GET',
+					
+					success:function(data){
+						var x=JSON.stringify(data);
+						alert("data "+x);
+					},
+					error:function(error){
+						alert(`error ${error}`);
+					}
+			});
+		}
+		</script>
+</head>
+
+<body>
+		
+	
+		<input type="button" onclick="ajaxCall()" value="GetData"> 
+</body>
+</html>

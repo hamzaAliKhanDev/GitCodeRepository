@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function ajaxCall(){
+	var xmlhttp= new XMLHttpRequest();
+	 var url='https://jsonplaceholder.typicode.com/todos/1';
+	 xmlhttp.open("GET",url,true);
+	 
+	 xmlhttp.onreadystatechange=function(){
+		 if(this.readyState==4 && this.status==200){
+			 alert(this.responseText);
+		 }
+		
+	 }
+	 xmlhttp.send();
+	 
+}
+
+//ajaxCall();
+
+</script>
+</head>
+<body>
+<input type="button" onclick="ajaxCall()" value="submit">
+</body>
+</html>
